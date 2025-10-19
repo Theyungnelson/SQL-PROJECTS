@@ -34,6 +34,7 @@ As a data detective, your mission is to:
 
 ---
 
+<details>
 ## 3️⃣ Problem Solved / Outcome
 Through a series of SQL queries, we connected the dots between people, interviews, and events to reveal the murderer.
 
@@ -47,6 +48,8 @@ Through a series of SQL queries, we connected the dots between people, interview
 
 🧾 Problem Solution II Reference:  
 ![Problem Solution II](./Images/Sql_Solution2.png)
+
+</details>
 
 ---
 
@@ -74,6 +77,7 @@ Through a series of SQL queries, we connected the dots between people, interview
 
 ---
 
+<details>
 ## 6️⃣ Entity Relationship Diagram (ERD)
 The schema shows how key entities are connected in the investigation.
 
@@ -86,6 +90,8 @@ The schema shows how key entities are connected in the investigation.
 - `person` ↔ `interview` (via `person_id`)  
 - `person` ↔ `facebook_event_checkin` (via `person_id`)  
 - `person` ↔ `income` (via `ssn`)  
+
+</details>
 
 ---
 
@@ -111,8 +117,10 @@ The schema shows how key entities are connected in the investigation.
 
 ---
 
+
 ## 9️⃣ Sample Queries
-```sql
+```
+<details>
 -- Step 1: Retrieve the crime report
 SELECT *
 FROM crime_scene_report
@@ -136,38 +144,47 @@ SELECT gfm.name, gfm.membership_status, gfc.check_in_date
 FROM get_fit_now_member gfm
 JOIN get_fit_now_check_in gfc
 ON gfm.id = gfc.membership_id;
+</details>
+```
 
 ---
 
-🔟 Conclusion & Recommendations
+## 🔟 Conclusion & Recommendations
 This MySQL project proves that SQL can go beyond reporting and can be used for logical deduction and investigative analytics.
 
-🧠 Key Takeaways:
-SQL joins and subqueries can reveal hidden data connections.
-Data storytelling can be achieved purely with SQL queries.
-Logical reasoning and structured thinking are key to query-based problem solving.
+🧠 **Key Takeaways:**
+- SQL joins and subqueries can reveal hidden data connections.
+- Data storytelling can be achieved purely with SQL queries.
+- Logical reasoning and structured thinking are key to query-based problem solving.
 
-💡 Recommendation:
+💡 **Recommendation:**
 Apply similar query logic for business cases such as:
-Fraud detection
-Customer behavior tracking
-Transactional data audits
+- Fraud detection
+- Customer behavior tracking
+- Transactional data audits
 
 ---
 
-## 📂 Files
+## 5️⃣ Files Included
+📂 The repository contains the following files:
 
-| File | Description |
-|------|-------------|
-| [`Sql_Murder_Mystery.sql`](./Sql_Murder_Mystery.sql) | Sql Data/Query file |
-| `screenshots/CocaCola_Dashboard.png` | Dashboard preview |
-| `screenshots/CocaCola_Model.png` | Data model screenshot |
+| File Name | Description |
+|------------|-------------|
+| [**Backup_Mystery.sql**](./Backup_Mystery.sql) | Complete MySQL database schema and data |
+| [**Sql_Murder_Mystery.sql**](./Sql_Murder_Mystery.sql)  | Complete query results and solved evidence |
+| [**Sql_Schema_Diagram.png**](./Image/Sql_Schema_Diagram.png) | Entity Relationship Diagram of the database |
+| [**Sql_ProbemStatement.png**](./Image/Sql_ProbemStatement.png) | Original problem statement image |
+| [**Sql_Solution1.png**](./Image/Sql_Solution1.png) | Original problem solution I image |
+| [**Sql_Solution2.png**](./Image/Sql_Solution2.png) | Original problem solution II image |
+| [**README.md**](./README.md) | Project documentation (this file) |
+
+🧩 You can upload the `.sql` file to your **MySQL Workbench** or **phpMyAdmin** and execute the queries directly.
+
+🔗 Follow the challenge online: [Try it yourself on MySQL platform](https://sql-murder-mystery.github.io/)
 
 ---
 
-## 💬 Author
-
-**Uche Nelson**  
-📧 [uchenelson9010@gmail.com](mailto:uchenelson9010@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/uche-chukwuemeka-nelson/)  
-🌐 [Portfolio](https://datascienceportfol.io/UcheNelson)
+👨‍💻 **Author:** [Uche Nelson](https://www.linkedin.com/in/uche-chukwuemeka-nelson/)  
+📧 **Email:** [uchenelson9010@gmail.com](mailto:uchenelson9010@gmail.com)  
+📂 **Portfolio:** [Data Science Projects](https://datascienceportfol.io/UcheNelson)  
+🔗 **GitHub:** [theyungnelson](https://github.com/theyungnelson)
