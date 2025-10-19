@@ -40,7 +40,13 @@ Through a series of SQL queries, we connected the dots between people, interview
 ### ✅ Outcome:
 - Successfully retrieved and analyzed all crime-related data using SQL queries.  
 - Joined multiple tables logically to trace relationships.  
-- Identified the **murderer** with verifiable query results.  
+- Identified the **murderer** with verifiable query results.
+
+🧾 Problem Solution Reference:  
+![Problem Solution](./Images/Sql_Solution1.png)
+
+🧾 Problem Solution II Reference:  
+![Problem Solution II](./Images/Sql_Solution2.png)
 
 ---
 
@@ -131,21 +137,37 @@ FROM get_fit_now_member gfm
 JOIN get_fit_now_check_in gfc
 ON gfm.id = gfc.membership_id;
 
- ## 🔟 Conclusion & Recommendations
+---
+
+🔟 Conclusion & Recommendations
 This MySQL project proves that SQL can go beyond reporting and can be used for logical deduction and investigative analytics.
 
 🧠 Key Takeaways:
-- SQL joins and subqueries can reveal hidden data connections.
-- Data storytelling can be achieved purely with SQL queries.
-- Logical reasoning and structured thinking are key to query-based problem solving.
+SQL joins and subqueries can reveal hidden data connections.
+Data storytelling can be achieved purely with SQL queries.
+Logical reasoning and structured thinking are key to query-based problem solving.
 
-## 💡 Recommendation:
+💡 Recommendation:
 Apply similar query logic for business cases such as:
+Fraud detection
+Customer behavior tracking
+Transactional data audits
 
-- Fraud detection
-- Customer behavior tracking
-- Transactional data audits
+---
 
-👨‍💻 Author: Uche Nelson
-📧 Contact: uchenelson9010@gmail.com
-📂 Portfolio: Data Projects
+## 📂 Files
+
+| File | Description |
+|------|-------------|
+| [`Sql_Murder_Mystery.sql`](./Sql_Murder_Mystery.sql) | Sql Data/Query file |
+| `screenshots/CocaCola_Dashboard.png` | Dashboard preview |
+| `screenshots/CocaCola_Model.png` | Data model screenshot |
+
+---
+
+## 💬 Author
+
+**Uche Nelson**  
+📧 [uchenelson9010@gmail.com](mailto:uchenelson9010@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/uche-chukwuemeka-nelson/)  
+🌐 [Portfolio](https://datascienceportfol.io/UcheNelson)
