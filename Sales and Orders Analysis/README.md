@@ -7,7 +7,6 @@
 - [🧠 SQL Techniques Used (JOINs, CTEs, subqueries, window functions)](#-sql-techniques-used-joins-ctes-subqueries-window-functions)
 - [📊 Key Insights & Findings](#-key-insights--findings)
 - [💬 Sample Queries](#-sample-queries)
-- [▶️ Run This Query](#️-run-this-query)
 - [👤 Author](#-author)
 
 ---
@@ -100,17 +99,13 @@ ORDER BY month;
 
 ---
 
-## ▶️ Run This Query
-You can test these SQL scripts directly in GitHub Codespaces, MySQL Workbench, or any preferred SQL IDE.
-Steps:
-- Clone the Repository
- git clone https://github.com/theyungnelson/Sales-and-Orders-Analysis.git
-cd Sales-and-Orders-Analysis
-- Load the Sql File
-  SOURCE Sales_and_Orders_Analysis.sql;
-- Run the Queries
-Click here to launch 👉 Run in MySQL Workbench
-(or copy any query from above and run it directly in your MySQL environment)
+## 📂 Files
+
+| File | Description |
+|------|-------------|
+| [`Sales_and_Orders_Analysis.sql`](./Sales_and_Orders_Analysis.sql) | Complete Solved Queries file |
+| [`Superstore_Data.csv`](./Superstore_Data.csv) | Complete Dataset |
+
 
 ---
 
