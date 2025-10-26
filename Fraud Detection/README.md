@@ -39,6 +39,21 @@ The goal of this project is to:
 
 ---
 
+## 🗂️ Data Source
+
+The dataset used in this project — **`synthetic_fraud_dataset`** — is a **synthetic dataset** created for educational and analytical purposes.  
+It does **not contain any real customer data** and is intended solely to demonstrate SQL-based fraud detection techniques.
+
+**Source / Inspiration:**
+- Synthetic data generated based on typical banking transaction structures.
+- Reference logic inspired by public fraud analytics resources and open datasets such as:
+  - [Opendatabay: Credit Card Fraud Detection Dataset](https://www.opendatabay.com/)
+  - [Opendatabay](https://www.opendatabay.com/data/synthetic/2a344c69-79a6-44cd-8df4-2265dec410e1?utm_source=chatgpt.com)
+- All data cleaning, transformation, and SQL logic were implemented manually by **[Uche Nelson](https://github.com/uche-nelson)**.
+
+---
+
+
 ### 5️⃣ Database Structure (Tables & Fields)
 
 **Main Table:** `synthetic_fraud_dataset`  
