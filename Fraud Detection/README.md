@@ -190,7 +190,7 @@ SQL alone can efficiently identify key fraud indicators such as unusual timing, 
 💡 **Recommendations:**
 - Integrate these SQL checks into daily ETL or fraud monitoring pipelines.
 - Visualize fraud rates and anomalies in Power BI or Tableau dashboards.
-- nExtend this dataset with customer behavior or demographic data for deeper insights.
+- Extend this dataset with customer behavior or demographic data for deeper insights.
 
 ---
 
