@@ -73,8 +73,8 @@ The goal of this project is to:
 You can generate and view the ERD using:  
 🖱️ [SQLFlow Online ERD Generator](https://sqlflow.gudusoft.com) → Paste the SQL schema from `synthetic_fraud.sql`.
 
-📄 **SQL Schema File:** [View Here](./synthetic_fraud.sql)  
-📊 **CSV Dataset:** [Download Here](./synthetic_fraud_dataset.csv)
+📄 **SQL Schema File:** [`synthetic_fraud.sql`](./synthetic_fraud.sql)  
+📊 **CSV Dataset:** [`synthetic_fraud_dataset.csv`](./synthetic_fraud_dataset.csv)
 
 ---
 
@@ -163,10 +163,10 @@ SQL alone can efficiently identify key fraud indicators such as unusual timing, 
 
 ## 🗂 Project Files
 
-| File | Description | Link |
+| File | Description |
 |------|--------------|------|
-| `synthetic_fraud.sql` | SQL file containing Analysis Queries and table definition | [📄 View SQL File](./synthetic_fraud.sql) |
-| `synthetic_fraud_dataset.csv` | CSV version of the dataset for Power BI or Python analysis | [📊 Download CSV File](./synthetic_fraud_dataset.csv) |
+| [`synthetic_fraud.sql`](./synthetic_fraud.sql)| SQL file containing Analysis Queries and table definition |
+| [`synthetic_fraud_dataset.csv`](./synthetic_fraud_dataset.csv) | CSV version of the dataset for Power BI or Python analysis | 
 
 ---
 
