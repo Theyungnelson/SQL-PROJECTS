@@ -4,7 +4,7 @@
 1️⃣ [Project Title & Description](#1️⃣-project-title--description)  
 2️⃣ [Problem Statement](#2️⃣-problem-statement)  
 3️⃣ [Problem Solved / Outcome](#3️⃣-problem-solved--outcome)  
-4️⃣ [Objective](#4️⃣-objective)  
+4️⃣ [Objective & Data Source](#4️⃣-objective-&-Data-Source)  
 5️⃣ [Database Structure (Tables & Fields)](#5️⃣-database-structure-tables--fields)  
 6️⃣ [Entity Relationship Diagram (ERD)](#6️⃣-entity-relationship-diagram-erd)  
 7️⃣ [SQL Techniques Used](#7️⃣-sql-techniques-used)  
@@ -55,6 +55,21 @@ Through a series of SQL queries, we connected the dots between people, interview
 - Demonstrate the analytical power of **MySQL** in solving logical problems.  
 - Apply **SQL joins, subqueries, and aggregations** to connect scattered data points.  
 - Showcase data storytelling through structured query results.  
+
+**Data Source**
+---
+
+## 🗂️ Data Source
+
+The database used in this project — **`Sql_Crime_Investigation`** — is a **Sql Murder Mystery** created for educational and analytical purposes.  
+It does **not contain any real customer data** and is intended solely to demonstrate SQL-based Crime detection techniques.
+
+**Source / Inspiration:**
+- Crime Investigation data generated based on typical Sql Murder Mystery structures.
+- Reference logic inspired by open datasets and Crime research resources such as:
+  - [Murder Mystery](https://mystery.knightlab.com/)
+- All SQL logic, transformations, and analysis were implemented manually by **[Uche Nelson](https://github.com/uche-nelson)**.
+
 
 ---
 
