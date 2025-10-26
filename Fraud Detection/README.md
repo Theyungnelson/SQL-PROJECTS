@@ -5,6 +5,24 @@
 
 ---
 
+## 📋 Table of Contents
+1. [Project Title & Description](#1️⃣-project-title--description)
+2. [Problem Statement](#2️⃣-problem-statement)
+3. [Problem Solved / Outcome](#3️⃣-problem-solved--outcome)
+4. [Objective](#4️⃣-objective)
+5. [Database Structure (Tables & Fields)](#5️⃣-database-structure-tables--fields)
+6. [Entity Relationship Diagram (ERD)](#6️⃣-entity-relationship-diagram-erd)
+7. [SQL Techniques Used](#7️⃣-sql-techniques-used)
+8. [Key Insights & Findings](#8️⃣-key-insights--findings)
+9. [Sample Queries](#9️⃣-sample-queries)
+10. [Data Source](#🗂️-data-source)
+11. [Conclusion & Recommendations](#🔟-conclusion--recommendations)
+12. [Project Files](#🗂-project-files)
+13. [Author](#👤-author)
+
+
+---
+
 ### 1️⃣ Project Title & Description  
 **Project Title:** Fraud Detection Via SQL Queries  
 
