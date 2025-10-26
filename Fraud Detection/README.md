@@ -161,22 +161,19 @@ SQL alone can efficiently identify key fraud indicators such as unusual timing, 
 
 ---
 
-## 🗂 Project Files
+## 📂 Files
 
 | File | Description |
-|------|--------------|------|
-| [`synthetic_fraud.sql`](./synthetic_fraud.sql)| SQL file containing Analysis Queries and table definition |
-| [`synthetic_fraud_dataset.csv`](./synthetic_fraud_dataset.csv) | CSV version of the dataset for Power BI or Python analysis | 
+|------|-------------|
+| [`synthetic_fraud.sql`](./synthetic_fraud.sql) | SQL file containing fraud detection queries and schema |
+| [`synthetic_fraud_dataset.csv`](./synthetic_fraud_dataset.csv) | CSV version of the dataset |
+| [`Fraud_Detection_Erd.png`](./Fraud_Detection_Erd.png) | Erd screenshot |
 
 ---
 
-## 👤 Author
+## 💬 Author
 
 **Uche Nelson**  
 📧 [uchenelson9010@gmail.com](mailto:uchenelson9010@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/uche-chukwuemeka-nelson/)  
-💻 [GitHub](https://github.com/uche-nelson)
-
-
-
-
+🌐 [Portfolio](https://datascienceportfol.io/UcheNelson)
